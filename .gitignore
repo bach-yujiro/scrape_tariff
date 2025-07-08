@@ -1,0 +1,9 @@
+# SQLite / DB files
+*.db
+
+# CSV エクスポート
+*.csv
+
+# Python キャッシュ
+__pycache__/
+*.py[cod]
