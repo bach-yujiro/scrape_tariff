@@ -28,7 +28,7 @@
 ## プロジェクト概要
 
 日本税関のHＳコード（品目分類番号）と対応関税率をスクレイピングし、CSV および SQLite データベースにまとめるCLIツールです。  
-9桁までの細分類コードを含む全データを自動取得し、空欄を上位コードの値で埋める伝播処理を実装しています。 :contentReference[oaicite:4]{index=4}
+9桁までの細分類コードを含む全データを自動取得し、空欄を上位コードの値で埋める伝播処理を実装しています。
 
 ---
 
@@ -54,8 +54,6 @@
 | BeautifulSoup4         | 最新           |
 | pandas                 | 最新           |
 | sqlite3（標準ライブラリ） | —            |
-
-> その他の依存は `requirements.txt` をご確認ください。:contentReference[oaicite:1]{index=1}
 
 ---
 
@@ -99,6 +97,7 @@ python scrape_tariff.py
 ├─ README.md
 ├─ requirements.txt
 ├─ scrape_tariff.py
+├─ import_tariff_all_filled.csv   # 実行後に生成
 └─ import_tariff.db         # 実行後に生成
 ```
 
