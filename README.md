@@ -70,7 +70,7 @@ CSV および SQLite データベースにまとめるCLIツールです。
 
 ```bash
 # リポジトリをクローン
-git clone https://github.com/<yourname>/tariff-scraper.git
+git clone https://github.com/bach-yujiro/tariff-scraper.git
 cd tariff-scraper
 
 # 仮想環境作成・有効化（例: venv）
